@@ -79,7 +79,7 @@ class ServicioTest {
 
     }
     @Test
-    void soloUnTest(){
+    void testPasadoLaEjecucionDelPrograma(){
         Flux<Integer> source = Flux.<Integer>create(emitter -> {
             emitter.next(1);
             emitter.next(2);
